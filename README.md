@@ -1,4 +1,4 @@
-# Effective-Programming
+# Effective Programming
 A list of statements about programming that remind me how to write better code.
 
 - Make everything immutable
