@@ -14,3 +14,4 @@ A list of statements about programming that remind me how to write better code.
 - A good code walk involves hunting for suspicious or "ugly" code and asking questions to articulate why it seems "ugly".
 - "Ugly" is just shorthand for a design flaw that isn't easy to articulate.
 - [Data =/= Information](https://htdp.org/2021-5-4/Book/part_one.html#%28counter._%28figure._fig~3adata-info%29%29). Protect yourself from input, make the transformation between the two explicit.
+- Readability of code is a function of the skill of the programmer, not the features of their chosen programming language.
