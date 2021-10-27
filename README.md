@@ -10,6 +10,7 @@ A list of statements about programming that remind me how to write better code.
 - Dont be a 1970s programmer
 - Test for testing's take
   - Tests are about working through examples and code organization, not just making sure that "it works".
+  - Thinking about tests first also produces code that is naturally loosely coupled and cohesive.
 - All code is flawed in one form or another, either functionally or in terms of design. To find flaws practice code walks.
 - A good code walk involves hunting for suspicious or "ugly" code and asking questions to articulate why it seems "ugly".
 - "Ugly" is just shorthand for a design flaw that isn't easy to articulate.
@@ -17,4 +18,4 @@ A list of statements about programming that remind me how to write better code.
 - Readability of code is a function of the skill of the programmer, not the features of their chosen programming language.
 - Write flexible code ahead of time only if you think changes are very likely to happen.
   - Otherwise, abstract only what you must and only those things that are similar between two existing modules.
-  - (e.x., only write interfaces when you have multiple classes). 
+  - (e.x., only write interfaces when you have multiple classes).
