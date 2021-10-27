@@ -15,3 +15,6 @@ A list of statements about programming that remind me how to write better code.
 - "Ugly" is just shorthand for a design flaw that isn't easy to articulate.
 - [Data =/= Information](https://htdp.org/2021-5-4/Book/part_one.html#%28counter._%28figure._fig~3adata-info%29%29). Protect yourself from input, make the transformation between the two explicit.
 - Readability of code is a function of the skill of the programmer, not the features of their chosen programming language.
+- Write flexible code ahead of time only if you think changes are very likely to happen.
+  - Otherwise, abstract only what you must and only those things that are similar between two existing modules.
+  - (e.x., only write interfaces when you have multiple classes). 
