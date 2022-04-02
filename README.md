@@ -1,7 +1,7 @@
 # Effective Programming
 A list of statements about programming that remind me how to write better code.
 
-- Make everything immutable
+- Make (almost) everything immutable
 - If your function is returning void, something is very wrong
 - [Follow the damn design recipe](https://htdp.org/2021-5-4/Book/part_preface.html#%28part._sec~3asystematic-design%29)
 - Purpose statements document intent. Only write them when the function name and body are not enough.
@@ -19,3 +19,13 @@ A list of statements about programming that remind me how to write better code.
 - Write flexible code ahead of time only if you think changes are very likely to happen.
   - Otherwise, abstract only what you must and only those things that are similar between two existing modules.
   - (e.x., only write interfaces when you have multiple classes).
+  - 
+```
+Fellas, if your stateful class
+
+- is intended to be used/instaniated in a certain order
+- relies on a history of past method calls
+- has flags or mutable fields that are only *sometimes* relevant
+
+thats not a class, thats a state machine.
+```
